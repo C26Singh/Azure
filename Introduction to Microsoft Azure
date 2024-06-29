@@ -1,1 +1,51 @@
+What is Azure?
+Azure is a cloud computing platform and service.
+Services it provides  for computing, analytics, storage, and networking.
+services can be used to develop and scale new applications, or run existing applications.
 
+
+Key Concepts:
+Regions and Availability Zones:
+Each region is a set of data centers deployed within a specific geographic area. Availability Zones are physically separate locations within a region to ensure high availability.
+
+
+Region: East US
+  ├── Availability Zone 1 (Data Center 1)
+  ├── Availability Zone 2 (Data Center 2)
+  └── Availability Zone 3 (Data Center 3)
+
+Region: West Europe
+  ├── Availability Zone 1 (Data Center 1)
+  ├── Availability Zone 2 (Data Center 2)
+  └── Availability Zone 3 (Data Center 3)
+
+Resource Groups: Logical containers for managing and grouping related resources in Azure.
+Azure Subscription:
+
+--------------------------------------------------
+Practical Use Cases
+Multi-Region Deployment:low latency and provide regional redundancy.
+
+Zone-Redundant Storage:nsure data availability even if one zone fails.
+ use a load balancer to distribute traffic, ensuring that the application remains available even if one zone goes down.
+--------------------------------------------------
+Setting Up an Azure Account
+Create an Account
+Subscription
+Azure Portal:
+
+=-----------------------------------------------
+Azure Compute Services
+
+Azure Virtual Machines (VMs): VMs are scalable computing resources
+Use Case: Running custom applications, hosting websites, or setting up development and test environments.
+
+Steps to Create a VM:
+Navigate to Azure Portal.
+Create a Resource: Select "Virtual Machine" from the Compute category.
+Configure VM: Choose an image (e.g., Windows Server or Ubuntu), size, and configure settings.
+Networking and Storage: Set up networking options and attach storage.
+Review and Create: Review the configuration and create the VM.
+
+--------------------------------------------------
+Azure Storage Services
